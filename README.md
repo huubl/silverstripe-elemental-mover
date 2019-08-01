@@ -5,9 +5,10 @@ A simple experimental extension to move Elements to other Areas/Pages.
 
 ## Requirements
 
-* SilverStripe ^4.2
-* dnadesign/silverstripe-elemental ^3.0
+* SilverStripe CMS ^4.3
+* dnadesign/silverstripe-elemental ^4.0
 
+For a SilverStripe 4.2 and Elemental 3.x compatible version of this module, please see the [1.x release line](https://github.com/derralf/silverstripe-elemental-mover/tree/1.0#readme).
 
 ## Installation
 
@@ -34,9 +35,10 @@ none
 
 ## Usage
 
-Go to "Expert Settings" tab, select another page and save.
+- Go to "Expert Settings" tab, select another page and save.
+- Maybe you have to set "inline_editable: false" for base element in your elements.yml
 
 ## Caution
 
-- You will eventally get a "page does not" after moving/saving. I don't know how to prevent this.
+- You will eventally get a "page does not exist" after moving/saving. I don't know how to prevent this. Just select another Page and move on editing over there. 
 - May not work properly with mutliple Element Areas per Page
